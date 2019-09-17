@@ -1,4 +1,4 @@
-"# 3x3_Systolic_Array_multiplier" 
+# 3x3_Systolic_Array_multiplier
 
 Include:
 
