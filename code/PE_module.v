@@ -16,9 +16,9 @@ reg [ DATAWIDTH - 1 : 0 ] Next_B_reg;
 reg  [ DATAWIDTH * 2  : 0 ] PE_reg;
 wire [ DATAWIDTH * 2 : 0 ] PE_net;
 mult_add#(.DATAWIDTH(DATAWIDTH)) multadd(.A(A),
-                 .B(B),
-				 .C(PE_reg),
-				 .P(PE_net));
+                                         .B(B),
+				         .C(PE_reg),
+				         .P(PE_net));
 
 always @ ( posedge CLK or negedge RSTn )
 begin
